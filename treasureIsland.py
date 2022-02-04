@@ -49,6 +49,7 @@ Y8P        888                     888
      ''')
 
 print("Welcome to Treasure Island.")
+
 print("Your mission is to find the treasure.")
 
 x = input('\nYou\'re at a crossroad. Where do you want to go? Type "left" or "right": \n')
@@ -218,6 +219,7 @@ if x == "left":
                                              '~VvXXXXXXXV~~
                                                    ~~''')
         else:
+
             print("\nYou chose a door that doesn't exist. Game Over.\n")
             print('''
 
@@ -289,6 +291,7 @@ if x == "left":
                                              '~VvXXXXXXXV~~
                                                    ~~''')
     else:
+
         print("\nYou get attacked by an angry trout. Game Over.\n")
         print('''
 
@@ -360,6 +363,7 @@ if x == "left":
                                          '~VvXXXXXXXV~~
                                                ~~''')
 else:
+
     print("\nYou fell into a hole. Game Over.\n")
     print('''
     
