@@ -55,12 +55,17 @@ print("Your mission is to find the treasure.")
 x = input('\nYou\'re at a crossroad. Where do you want to go? Type "left" or "right": \n')
 
 if x == "left":
+
     y = input('\nYou\'ve come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat '
               'Type "swim" to swim across ??  \n')
+
     if y == "wait":
+
         z = input("\nYou arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one "
                   "blue. Which colour do you choose ?  \n")
+
         if z == "yellow":
+
             print("\nYou found the treasure! You Win!\n")
             print('''
             
@@ -77,6 +82,7 @@ if x == "left":
 
             ''')
         elif z == "red":
+
             print("\nIt's a room full of fire. Game Over.\n")
             print('''
 
@@ -148,6 +154,7 @@ if x == "left":
                                              '~VvXXXXXXXV~~
                                                    ~~''')
         elif z == "blue":
+
             print("\nYou enter a room of beasts. Game Over.\n")
             print('''
 
@@ -434,6 +441,7 @@ else:
                               ~vXXXXXXXXXXXXXXXXv~
                                  '~VvXXXXXXXV~~
                                        ~~''')
+
 
 
 
